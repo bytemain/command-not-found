@@ -1,0 +1,43 @@
+{
+  "name": "command-not-found",
+  "version": "0.0.1",
+  "description": "a cli tool to find the right package.",
+  "main": "./dist/index.js",
+  "bin": {
+    "cnf": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "create": "yarn build && yarn test",
+    "build": "tsc -p .",
+    "test": "yarn global add $PWD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lengthmin/command-not-found.git"
+  },
+  "keywords": [
+    "command-not-found",
+    "commandnotfound"
+  ],
+  "author": "lengthmin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lengthmin/command-not-found/issues"
+  },
+  "homepage": "https://github.com/lengthmin/command-not-found#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^5.1.0",
+    "got": "^11.5.0",
+    "ora": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.21",
+    "@types/node": "^14.0.23",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}

@@ -4,6 +4,8 @@
 
 a cli tool that let you found the missing command.
 
+Thanks to: <https://command-not-found.com/>, this cli tool is completed by requesting the website.
+
 ## Install
 
 ```bash

@@ -1,7 +1,7 @@
 {
   "name": "command-not-found",
-  "version": "0.0.2",
-  "description": "find the missing package",
+  "version": "0.0.3",
+  "description": "find the missing command",
   "main": "./dist/index.js",
   "bin": {
     "cnf": "./dist/index.js"

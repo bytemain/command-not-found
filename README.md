@@ -14,11 +14,19 @@ Thanks to: <https://command-not-found.com>, This tool obtains information by par
 npm install -g command-not-found
 ```
 
+then you can use the `cnf` command.
+
 ## Quick Start
 
 ```bash
 # search nc
 cnf nc  
+```
+
+show help message:
+
+```bash
+cnf
 ```
 
 ## Live Demo
